@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    min-height: 100%;                         */
+}
+
+body::before{
+    content: "";
+    position: fixed;
+    background-image: url('./img/BM.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(4px);
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.3);         /* Optional dark overlay */
+    background-blend-mode: darken; 
+}
+
+.title{
+    margin: 3%;
+    text-align: center;
+    color:rgba(150, 250, 0, 0.548);
+}
+
+.Gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    
+}
+
+.Gallery img{
+    width: 280px; 
+    height: 200px;
+    border: none;
+    display: block;
+    border-radius: 10px;
+    transition: all ease-in-out 0.5s;
+}
+
+.Gallery img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    filter: grayscale(1);
+}
