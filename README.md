@@ -23,9 +23,9 @@ CSS3 (Flexbox)
 
 **🛠️ How to Use**
 
-git clone https://github.com/your-username/bmw-m4-gallery.git
+git clone https:https://github.com/Narendk/Image_gallery.git
 Open index.html in your browser.
 
 **🚀 Live Demo**
 
-🔗 View Gallery (Add your GitHub Pages or live link here)
+🔗 Live Link : https://narendk.github.io/Image_gallery/
